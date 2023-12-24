@@ -1,0 +1,11 @@
+<div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="w-full h-[256px]">
+        <img class="w-full h-full object-cover" src={{housing_location.photo}} alt="Sunset in the mountains">
+    </div>
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">{{housing_location.name}}</div>
+      <p class="listing-location">{{ housing_location.city }}, {{ housing_location.state }}
+    </div>
+
+    <a href="/details/{{housing_location.id}}">Learn More</a>
+  </div>
